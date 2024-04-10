@@ -462,9 +462,9 @@ class Memoizer(object):
 
         :param fname: Name of the memoized function, or a reference to the
                       function.
-        :param \*args: A list of positional parameters used with memoized
+        :param args: A list of positional parameters used with memoized
                        function.
-        :param \**kwargs: A dict of named parameters used with memoized
+        :param kwargs: A dict of named parameters used with memoized
                           function.
 
         .. note::
